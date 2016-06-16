@@ -1,12 +1,12 @@
 ###### Paso 11:
-Usé el reset --hard HEAD~1, porque el --hard descarta los cambios 
+Usé el `reset --hard HEAD~1`, porque el `--hard` descarta los cambios 
 al staging area.
 
 ###### Paso 12:
-Con el comando git reflog busqué el commit anterior al descarte.
+Con el comando `git reflog` busqué el commit anterior al descarte.
 
 ###### Paso 13:
-No se puede jalar un branch a lo fast-forward de commits anteriores
+No se puede "halar" un branch a lo fast-forward de commits anteriores
 contenidos en el branch en el que estoy. Tendría que hacerlo desde master,
 no desde styled.
 
@@ -18,20 +18,21 @@ git-nuestro.md. Lo resolví borrando las modificaciones de htmlfy manualmente.
 No. Es un merge fast forward.
 
 ###### Paso 25:
-Usé el comando git garph, habiendo hecho antes el alias.graph que contiene 
-el --graph, --decorate y el --pretty=oneline.
+Usé el comando `git garph`, habiendo hecho antes el `git config --global 
+alias.graph` que contiene 
+el `log --graph, --decorate y el --pretty=oneline`.
 
 ###### Paso 26:
 Podría porque los commits están en lista, consecutivos.
 
 ###### Paso 27:
-git reset HEAD~1
+`git reset HEAD~1`
 
 ###### Paso 28:
-git checkout -- <file>
+`git checkout -- <file>`
 
 ###### Paso 29:
-git branch -D title
+`git branch -D title`
 
 ###### Paso 30:
 `git reflog` para ubicar el commit y `git reset --hard <ref>` para 
