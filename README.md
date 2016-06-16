@@ -1,3 +1,5 @@
+####Respuestas.
+
 ###### Paso 11:
 Usé el `reset --hard HEAD~1`, porque el `--hard` descarta los cambios 
 al staging area.
@@ -12,7 +14,7 @@ no desde styled.
 
 ###### Paso 19:
 Causó conflicto porque estaban modificadas las mismas líneas del 
-git-nuestro.md. Lo resolví borrando las modificaciones de htmlfy manualmente.
+git-nuestro.md. Lo resolví borrando las modificaciones de htmlify manualmente.
 
 ###### Paso 21:
 No. Es un merge fast forward.
