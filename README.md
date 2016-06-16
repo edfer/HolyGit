@@ -26,13 +26,13 @@ el `log --graph, --decorate y el --pretty=oneline`.
 Podría porque los commits están en lista, consecutivos.
 
 ###### Paso 27:
-`git reset HEAD~1`
+`git reset HEAD~1`.
 
 ###### Paso 28:
-`git checkout -- <file>`
+`git checkout -- <file>`.
 
 ###### Paso 29:
-`git branch -D title`
+`git branch -D title`.
 
 ###### Paso 30:
 `git reflog` para ubicar el commit y `git reset --hard <ref>` para 
